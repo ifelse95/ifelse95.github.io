@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Balsamiq Sans";
+    src: url(BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
+}
+
+body {
+  background-color: #000000;
+  background-repeat: repeat;
+  background-image: linear-gradient(to bottom, #140509, #571a2a, #ff7a9e);
+	background-position: left top;
+	background-attachment: fixed;
+  font-size: 18px;
+  font-family: "Balsamiq Sans", Geneva, sans-serif;
+  margin: 0;
+}
+/*i copied and pasted this from another file just to get a starting point pls dont kill me*/
+
+p {
+	color: #ff0074;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	color: #ff0074;
+}
+
+hr {
+  border-width: 2px 0 0 0;
+  border-style: solid;
+  border-color: #ff3d70; 
+}
+
+a {
+	color: #ff61a9;
+}
+
+
+a:hover, a:focus {
+  background-color: #ffa1cc;
+}
+
+a:visited {
+  color: #8f3b61;
+}
+
+.caption {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.boxfont {
+	color: #ff66aa;
+}
+
+
+/*c o n t a i n e r also apparently tbhis is just a funky little custom thing i gotta define it in the html*/
+
+#container {
+	 width: 90%;
+	 max-width: 650px;
+	 background-color: black;
+	 border-radius: 25px;
+	padding: 50px;
+	margin: 3em auto;
+	margin-top: 20px;
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.6);
+}
+
+#content {
+  padding: 10px 5% 20px 5%;
+}
+
+#box {
+  width: 250px;
+  border-radius: 25px;
+  padding: 10px;
+  margin: auto;
+  background-color: #360219;
+  font-size: 18px;
+  text-align: center;
+}

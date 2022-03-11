@@ -1,0 +1,90 @@
+body {
+  background-color: #000000;
+  background-repeat: repeat;
+  background-image: url(/img/crazy-eyes-peeps.gif);
+	background-position: left top;
+	background-attachment: fixed;
+  font-size: 18px;
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0;
+}
+/*i copied and pasted this from another file just to get a starting point pls dont kill me*/
+
+p {
+	color: black;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+hr {
+  border-width: 5px 0 0 0;
+  border-style: dotted;
+  border-color: #ff91e5; 
+}
+
+a {
+	color: #ff30ce;
+}
+
+
+a:hover, a:focus {
+  color: #ffbedb;
+}
+
+a:visited {
+  color: #0069cc;
+}
+
+.caption {
+	font-style: italic;
+	font-size: 14px;
+}
+
+
+/*c o n t a i n e r also apparently tbhis is just a funky little custom thing i gotta define it in the html*/
+
+#container {
+	 width: 90%;
+	 max-width: 650px;
+	 background-color: white;
+	 border: 1px solid black;
+	padding: 50px;
+	margin: 3em auto;
+	margin-top: 20px;
+}
+
+#content {
+  padding: 10px 5% 20px 5%;
+}
+
+/*sidebar?*/
+
+#sidebar {
+	width: 15%;
+	background-color: #ffffff;
+	/*background-image: url("img/sidebar.png");*/
+	margin-right: 2%;
+	margin-top: 20px;
+	border: 1px solid black;
+	text-align: left;
+	float: right;
+	padding: 10px;
+}
+
+/*credits
+
+#credits {
+	color: white;
+	text-align: left;
+	margin-left: 0.3%;
+	float: left
+}*/
+
+/*footer*/
+
+#footer {
+	font-size: 14px;
+	padding: 0 5% 10px 5%;
+}
