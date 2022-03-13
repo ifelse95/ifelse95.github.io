@@ -1,7 +1,7 @@
 body {
   background-color: #000000;
   background-repeat: repeat;
-  background-image: url(/img/crazy-eyes-peeps.gif);
+  background-image: url(../../../../img/crazy-eyes-peeps.gif);
 	background-position: left top;
 	background-attachment: fixed;
   font-size: 18px;
