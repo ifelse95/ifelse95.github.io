@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Balsamiq Sans";
+    src: url(BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
+}
+
+ html {
+        font-family: "Balsamiq Sans", Geneva, sans-serif;
+		font-size: 18px;
+      }
+
+      body {
+        margin: 0;
+		text-align: center;
+		background-color: #000000;
+		background-repeat: repeat;
+		background-image: linear-gradient(to bottom right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+		background-position: left top;
+		background-attachment: fixed;
+      }
+
+
+      h1, h2, h3, h4 {
+        text-align: center;
+        color: black;
+        line-height: 100px;
+        margin: 0;
+      }
+
+	  hr {
+		  border-width: 1px 0 0 0;
+		  border-style: solid;
+          border-color: black; 
+	  }
+
+/*flexbox*/
+
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: white;
+		flex: 1 25px;
+		border: solid black 1px;
+		align-self: flex-start;
+
+      }
+	  
+	  article:nth-of-type(2) {
+		flex: 2 200px;
+	  }	
+
+
+      /* Add your flexbox CSS below here */
+
+		section {
+		display: flex;
+		flex-wrap: wrap;
+		height: 5%;
+		}
+		
+		
+/*status*/
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+	background-repeat: repeat;
+	background-image: linear-gradient(to right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+    border: 1px solid black;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}

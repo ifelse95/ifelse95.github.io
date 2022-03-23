@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style/style.css" rel="stylesheet" type="text/css" media="all">
+		<style>
+html, body {
+  margin:0;
+  padding:0;
+  background: transparent;
+  overflow: hidden;
+  line-height: 80%;
+}
+
+body a {
+  font-size: 24px;
+  text-decoration:none;
+}
+body a:hover {
+  color: #ffb72d;
+}
+.pic
+    {
+      width: 220px; 
+      position: absolute;
+      top: 20px;
+      left: 1px;
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 2s infinite  alternate;
+    }
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+
+</style>
+	</head>
+	<body>
+	
+	<div align="center">
+	<a href="">link</a>
+	<a href="">link</a>
+	<a href="">link</a>
+	</div>
+	
+	</body>
+</html>
