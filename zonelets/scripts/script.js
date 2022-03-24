@@ -61,7 +61,7 @@ if ( url.includes("project/") ) {
 let headerHTML = '<ul> <li><a href="' + '/zonelets/index.html">Home</a></li>' + 
 '<li><a href="' + '/zonelets/archive.html">Archive</a></li>' +
 '<li><a href="' + '/zonelets/about.html">About</a></li>' +
-'<li><a href="' + '../index.html">Main</a></li>';
+'<li><a href="' + '../home.html">Main</a></li>';
 
 //Write the Footer HTML, which has information about the blog.
 let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='http://wertercatt.com/'>wertercatt.com</a></p><p><center>Established November 12, 2020</center></p>";

@@ -1,5 +1,5 @@
 //sidebar
-let sidebarHTML = '<h2>MENU</h2><ul> <li><a href="' + '../../index.html">Home</a></li>' + 
+let sidebarHTML = '<h2>MENU</h2><ul> <li><a href="' + '../../home.html">Home</a></li>' + 
 '<li><a href="' + '../../about.html">About + Contact</a></li>' +
 '<li><a href="' + '../../zonelets/index.html">Journal</a></li>' +
 '<li><a href="' + '../../gallery.html">Gallery</a></li>' + 

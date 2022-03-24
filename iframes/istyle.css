@@ -1,12 +1,38 @@
 @font-face {
     font-family: "Balsamiq Sans";
-    src: url(BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
+    src: url(../style/BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
 }
 
  html {
         font-family: "Balsamiq Sans", Geneva, sans-serif;
 		    font-size: 18px;
       }
+
+
+a {
+	color: #ff30ce;
+}
+
+
+a:hover, a:focus {
+  background-color: #ffbedb;
+}
+
+a:visited {
+  color: #0069cc;
+}
+
+.caption {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.boxfont {
+	color: black
+}
+
+
+
 /*status*/
 
 #statuscafe {

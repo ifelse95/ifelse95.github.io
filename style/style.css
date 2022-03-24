@@ -3,120 +3,114 @@
     src: url(BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
 }
 
-body {
-  background-color: #000000;
-  background-repeat: repeat;
-  background-image: linear-gradient(to bottom right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
-	background-position: left top;
-	background-attachment: fixed;
-  font-size: 18px;
-  font-family: "Balsamiq Sans", Geneva, sans-serif;
-  margin: 0;
+ html {
+        font-family: "Balsamiq Sans", Geneva, sans-serif;
+		font-size: 18px;
+      }
+
+      body {
+        margin: 0;
+		text-align: center;
+		background-color: #000000;
+		background-repeat: repeat;
+		background-image: linear-gradient(to bottom right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+		background-position: left top;
+		background-attachment: fixed;
+      }
+
+	  p {
+		 color: black;
+	  }
+
+
+      h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+        color: black;
+        line-height: 100px;
+        margin: 0;
+      }
+
+	  hr {
+		  border-width: 1px 0 0 0;
+		  border-style: solid;
+          border-color: black; 
+	  }
+
+      a {
+		color: #ff30ce;
+	}
+
+
+      a:hover, a:focus {
+	background-color: #ffbedb;
+	}
+
+      a:visited {
+	color: #0069cc;
+	}
+
+     .caption {
+		font-style: italic;
+		font-size: 14px;
+	}
+
+     .boxfont {
+		color: black
+	}
+
+
+/*flexbox*/
+
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: white;
+		flex: 2 25%;
+		border: solid black 1px;
+		border-radius: 15px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		align-self: flex-start;
+      }
+	  
+      iframe {
+        padding: 10px;
+        margin: 10px;
+        background: white;
+		flex: 1 15%;
+		border: solid black 1px;
+		border-radius: 15px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		align-self: flex-start;      
+    }
+
+      /* Add your flexbox CSS below here */
+
+		section {
+		display: flex;
+		flex-wrap: wrap;
+		height: 5%;
+		}
+		
+		
+/*status*/
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+	background-repeat: repeat;
+	background-image: linear-gradient(to right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+    border: 1px solid black;
 }
-/*i copied and pasted this from another file just to get a starting point pls dont kill me*/
-
-p {
-	color: black;
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
 }
 
-h1, h2, h3 {
-	text-align: center;
-}
-
-hr {
-  border-width: 1px 0 0 0;
-  border-style: solid;
-  border-color: #ff91e5; 
-}
-
-a {
-	color: #ff30ce;
-}
-
-
-a:hover, a:focus {
-  background-color: #ffbedb;
-}
-
-a:visited {
-  color: #0069cc;
-}
-
-.caption {
-	font-style: italic;
-	font-size: 14px;
-}
-
-.boxfont {
-	color: black
-}
-
-/*c o n t a i n e r also apparently tbhis is just a funky little custom thing i gotta define it in the html*/
-
-#container {
-	 width: 90%;
-	 max-width: 650px;
-	 background-color: white;
-	 border: 1px solid black;
-	padding: 50px;
-	margin: 3em auto;
-	margin-top: 20px;
-}
-
-#content {
-  padding: 10px 5% 20px 5%;
-}
-
-/*sidebar?*/
-
-#sidebar {
-	width: 15%;
-	background-color: #ffffff;
-	/*background-image: url("img/sidebar.png");*/
-	margin-right: 2%;
-	margin-top: 20px;
-	border: 1px solid black;
-	text-align: left;
-	float: right;
-	padding: 10px;
-}
-
-#sites {
-	width: 15%;
-	background-color: #ffffff;
-	margin-right: 2%;
-	margin-top: 3%;
-	border: 1px solid black;
-	text-align: left;
-	float: right;
-	padding: 10px;
-	clear: both;
-}
-
-
-/*credits
-
-#credits {
-	color: white;
-	text-align: left;
-	margin-left: 0.3%;
-	float: left
-}*/
-
-/*footer*/
+/*misc*/
 
 #footer {
 	font-size: 14px;
 	padding: 0 5% 10px 5%;
-}
-
-#box {
-  width: 150px;
-  padding: 15px;
-  margin: auto;
-  border: 1px solid black;
-  background-color: #000000;
-  background-image: linear-gradient(to bottom right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
-  font-size: 18px;
-  text-align: center;
 }
