@@ -1,6 +1,6 @@
 
 //footer
-let footerHTML = '<br><center><p>Established November 12, 2020</p><p><a href="./credits.html">credits</a> | <a href="mailto:ifelse95@gmail.com">contact</a> | <a href="./guestbook.html">guestbook</a></p></center>' ;
+let footerHTML = '<br><center><p>Established 11.12.2020 | Hosted on <a href="https://wertercatt.com/">wertercatt.com</a></p><p><a href="./credits.html">credits</a> | <a href="mailto:ifelse95@gmail.com">contact</a> | <a href="./guestbook.html">guestbook</a></p></center>' ;
 
 
 if (document.getElementById("footer")) {
