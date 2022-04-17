@@ -1,11 +1,9 @@
 //sidebar
-let sidebarHTML = '<h2>MENU</h2><ul> <li><a href="' + '../../home.html">Home</a></li>' + 
-'<li><a href="' + '../../about.html">About + Contact</a></li>' +
-'<li><a href="' + '../../zonelets/index.html">Journal</a></li>' +
-'<li><a href="' + '../../gallery.html">Gallery</a></li>' + 
-'<li><a href="' + '../../writings.html">Writings</a></li>' +
-'<li><a href="' + '../../projects.html">Projects</a></li>' +
-'<li><a href="https://ko-fi.com/ifelse95">Donate?</a></li><br><img src="../../img/ifelse95.gif" title="feel free to put my button on your site! just save it to your computer first.">' ;
+let sidebarHTML = '<h2>MENU</h2><ul> <li><a href="' + '../../projects.html">Projects Index</a></li>' + 
+'<li><a href="' + 'index.html">Ukagaka Index</a></li>' +
+'<li><a href="' + 'how-2-install.html">SSP Setup</a></li>' +
+'<li><a href="' + 'ghost.html">My Ghosts</a></li>' +
+'<li><a href="' + 'resources.html">Resources</a></li>' ;
 
 
 

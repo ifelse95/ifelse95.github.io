@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>ifelse95's house | journal</title>
+<link>https://www.ifelse95.xyz/zonelets/index.html</link>
+<description>ifelse95's blog.</description>
+<item>
+<title>exercise</title>
+<link>https://www.ifelse95.xyz/zonelets/posts/2022-04-08-exercise.html</link>
+<guid>https://www.ifelse95.xyz/zonelets/posts/2022-04-08-exercise.html</guid>
+<pubDate>Fri, 08 Apr 2022 19:00:00 CST</pubDate>
+<description>ramblings about exercise</description>
+</item>
+<item>
+<title>my day</title>
+<link>https://www.ifelse95.xyz/zonelets/posts/2022-04-05-my-day.html</link>
+<guid>https://www.ifelse95.xyz/zonelets/posts/2022-04-05-my-day.html</guid>
+<pubDate>Tue, 05 Apr 2022 19:00:00 CST</pubDate>
+<description>getting back into the swing of things</description>
+</item>
+</channel>
+</rss>

@@ -31,13 +31,30 @@ let authorLink = "mailto:ifelse95@gmail.com"; // Enter your website, social medi
   use a date it must still follow that format.*/
 
 let postsArray = [
+[ "posts/2022-04-08-exercise.html" ] ,
+[ "posts/2022-04-05-my-day.html" ],
 [ "posts/2021-12-31-low-spoon-new-year-thoughts.html" ],
 [ "posts/2021-11-14-sleep-deprivation-and-savory-tea.html" ],
 [ "posts/2021-09-26-an-apology-to-autumn.html" ],
 [ "posts/2021-09-09-small-thoughts-on-facade.html" ],
 [ "posts/2021-07-14-moe-anthropomorphism-my-beloved.html" ] ,
 [ "posts/2021-07-08-gallery-troubles.html" ] ,
-[ "posts/2021-06-20-a-new-direction.html" ] ];
+[ "posts/2021-06-20-a-new-direction.html" ] ,
+[ "posts/2021-03-23-where-did-i-go.html" ] ,
+[ "posts/2021-01-08-new-routines,-minecraft,-and-makeup.html" ] ,
+[ "posts/2020-12-31-a-small-reflection.html" ] ,
+[ "posts/2020-12-25-its-here!.html" ] ,
+[ "posts/2020-12-19-antidepressants.html" ] ,
+[ "posts/2020-12-13-childlike-excitement-for-the-holidays.html" ] ,
+[ "posts/2020-12-12-one-hell-of-a-day.html" ] ,
+[ "posts/2020-12-08-sims-4-adventures-winterfest.html" ] ,
+[ "posts/2020-12-03-my-card-collection.html" ] ,
+[ "posts/2020-11-28-coming-to-you-from-a-raspberry-pi.html" ] ,
+[ "posts/2020-11-27-laundromat-adventure.html" ] ,
+[ "posts/2020-11-27-getting-acquainted.html" ] ,
+[ "posts/2020-11-25-project-diva-and-things.html" ] ,
+[ "posts/2020-11-20-roasted-garlic-potatoes.html" ] ,
+[ "posts/2020-11-19-a-little-introduction.html" ] ];
 
 //-----------------------------
 

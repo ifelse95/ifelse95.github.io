@@ -5,6 +5,7 @@
 
 body {
   background-color: #000000;
+  background-image: url(../images/bg_stars.gif);
   background-repeat: repeat;
 	background-position: left top;
 	background-attachment: fixed;
@@ -53,6 +54,7 @@ img {
   }
 }
 .caption {
+  text-align: center;
   margin-top: 0;
   font-size: 0.9em;
   font-style: italic;
