@@ -10,7 +10,7 @@
 
       body {
         margin: 0;
-		text-align: center;
+		text-align: left;
 		background-color: #000000;
 		background-repeat: repeat;
 		background-image: linear-gradient(to bottom right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
@@ -22,8 +22,18 @@
 		 color: black;
 	  }
 
+	  header {
+		  font-size: 250%;
+		  text-align: center;
+	  }
 
-      h1, h2, h3, h4, h5, h6 {
+
+      h1 {
+		  font-size: 200%;
+		  text-align: center;
+	  }
+	  
+	  h2, h3, h4, h5, h6 {
         text-align: center;
         color: black;
         line-height: 100px;
@@ -31,9 +41,9 @@
       }
 
 	  hr {
-		  border-width: 1px 0 0 0;
+		  border-width: 3px 0 0 0;
 		  border-style: solid;
-          border-color: black; 
+          border-color: #ff30ce; 
 	  }
 
       a {
@@ -58,6 +68,10 @@
 		color: black
 	}
 
+	blockquote {
+		border-left: 3px solid #ff30ce;
+		padding: 10px;
+	}
 
 /*flexbox*/
 
