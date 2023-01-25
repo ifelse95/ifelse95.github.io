@@ -3,167 +3,165 @@
     src: url(BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
 }
 
- html {
-        font-family: "Balsamiq Sans", Geneva, sans-serif;
-		font-size: 18px;
-      }
-
-      body {
-        margin: 0;
-		text-align: left;
-		background-color: #000000;
-		background-repeat: repeat;
-		background-image: linear-gradient(to bottom right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
-		background-position: left top;
-		background-attachment: fixed;
-      }
-
-	  p {
-		 color: black;
-	  }
-
-	  header {
-		  font-size: 250%;
-		  text-align: center;
-	  }
-
-
-      h1 {
-		  font-size: 200%;
-		  text-align: center;
-	  }
-	  
-	  h2, h3, h4, h5, h6 {
-        text-align: center;
-        color: black;
-        line-height: 100px;
-        margin: 0;
-      }
-
-	  hr {
-		  border-width: 3px 0 0 0;
-		  border-style: solid;
-          border-color: #ff30ce; 
-	  }
-
-      a {
-		color: #ff30ce;
-	}
-
-
-      a:hover, a:focus {
-	background-color: #ffbedb;
-	}
-
-      a:visited {
-	color: #0069cc;
-	}
-
-     .caption {
-		font-style: italic;
-		font-size: 14px;
-	}
-
-     .boxfont {
-		color: black
-	}
-
-	blockquote {
-		border-left: 3px solid #ff30ce;
-		padding: 10px;
-	}
-
-/*flexbox*/
-
-      article {
-        padding: 10px;
-        margin: 10px;
-        background: white;
-		flex: 2 25%;
-		border: solid black 1px;
-		border-radius: 15px;
-		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-		align-self: flex-start;
-      }
-	  
-      iframe {
-        padding: 10px;
-        margin: 10px;
-        background: white;
-		flex: 1 15%;
-		border: solid black 1px;
-		border-radius: 15px;
-		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-		align-self: flex-start;      
-    }
-
-      /* Add your flexbox CSS below here */
-
-		section {
-		display: flex;
-		flex-wrap: wrap;
-		height: 5%;
-		}
-		
-		
-/*status*/
-
-#statuscafe {
-    padding: .5em;
-    background-color: azure;
+body {
+	font-family: "Balsamiq Sans", Geneva, sans-serif;
+	font-size: 18px;
+	color: #fff;
+	background-color: #000000;
 	background-repeat: repeat;
-	background-image: linear-gradient(to right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
-    border: 1px solid black;
-}
-#statuscafe-username {
-    margin-bottom: .5em;
-}
-#statuscafe-content {
-    margin: 0 1em 0.5em 1em;
+	background-image: linear-gradient(to bottom right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+	background-position: left top;
+	background-attachment: fixed;
 }
 
-/*misc*/
+header {
+	text-align: center;
+	font-size: 120%;
+}
+	
 
-#footer {
-	font-size: 14px;
-	padding: 5px;
-    /*margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 30px;
-	background: white;
-	flex: 2 25%;
-	border: solid black 1px;
+a {
+	color: #ff30ce;
+}
+
+
+a:hover, a:focus {
+	background-color: #ffbedb;
+}
+
+a:visited {
+	color: #0069cc;
+}
+
+
+/* nav ul { */
+	/* padding: 0; */
+	/* list-style-type: none; */
+	/* margin: 0; */
+	/* padding: 0; */
+	/* text-align: center; */
+	/* font-size: 75%; */
+/* } */
+
+/* nav li { */
+	/* display: inline; */
+	/* padding: 8px; */
+	/* font-size: 150%; */
+/* } */
+
+/* nav li a { */
+	/* color: #ff30ce; */
+	/* padding: 8px; */
+	/* display: inline-block; */
+/* } */
+
+/* nav li a:hover { */
+	/* background-color: #ffbedb; */
+/* } */
+
+/* nav li a:visited { */
+	/* color: #0069cc; */
+/* } */
+
+hr {
+	border-width: 3px 0 0 0;
+	border-style: solid;
+    border-color: #fff; 
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*classes*/
+
+.box {
+	background-color: rgba(0, 0, 0, 0.8);
+	float: left;
+	padding: 2%;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.wrapper {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 50%;
+	border-radius: 50px;
+}
+
+.sidebar {
+	margin-left: 5%;
+	margin-right: 1%;
+	width: 15%;
+	margin-top: 5%;
+	border-radius: 50px;
+	font-size: 85%;
+}
+
+.sidebartitle {
+	font-size: 200%;
+	text-align: center;
+}
+
+.sidebar li {
+	list-style: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imgcenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rainbowtxt {
+	text-align: center;
+	background: linear-gradient(to right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.updates {
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.8);
+	width: 75%;
+	height: 410px;
+	overflow: auto;
+	display: inline-block;
+	border: 2px solid #fff;
 	border-radius: 15px;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
+	line-height: 90%;
 }
 
-/*collapsable box on like. one page*/
-
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #ffdbed;
-  color: #000000;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  border-radius: 15px;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
-  font-family: "Balsamiq Sans", Geneva, sans-serif;
+.caption {
+	font-style: italic;
+	font-size: 14px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #ff9ecf;
+/*ids*/
+#footer {
+	font-size: 75%;
+	text-align: center;
+	color: black;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  border-radius: 15px;
-  background-color: #ebffb0;
-} 
+#footer a:link {
+	color: #ffffff;
+}
+
+#footer a:hover {
+	background-color: #ffff99;
+	color: #000000;
+}
+
+#footer a:visited {
+	color: #ffffff;
+}

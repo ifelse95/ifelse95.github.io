@@ -3,11 +3,11 @@
     src: url(../style/BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
 }
 
- html {
-        font-family: "Balsamiq Sans", Geneva, sans-serif;
-		    font-size: 18px;
-      }
-
+ body {
+    font-family: "Balsamiq Sans", Geneva, sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
 
 a {
 	color: #ff30ce;
@@ -31,7 +31,12 @@ a:visited {
 	color: black
 }
 
-
+.rainbowtxt {
+	text-align: center;
+	background: linear-gradient(to right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /*status*/
 

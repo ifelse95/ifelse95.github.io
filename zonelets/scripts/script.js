@@ -31,6 +31,7 @@ let authorLink = "mailto:ifelse95@gmail.com"; // Enter your website, social medi
   use a date it must still follow that format.*/
 
 let postsArray = [
+[ "posts/2023-01-24-self-care.html" ] ,
 [ "posts/2022-12-09-busy-work-unconventionality-and-seasonal-affective-disorder.html" ] ,
 [ "posts/2022-09-02-two-weeks-in.html" ] ,
 [ "posts/2022-08-16-college.html" ] ,
@@ -89,7 +90,7 @@ if ( url.includes("project/") ) {
 let headerHTML = '<ul> <li><a href="' + '/zonelets/index.html">Home</a></li>' + 
 '<li><a href="' + '/zonelets/archive.html">Archive</a></li>' +
 '<li><a href="' + '/zonelets/about.html">About</a></li>' +
-'<li><a href="' + '../home.html">Main</a></li>';
+'<li><a href="' + '../index.html">Main</a></li>';
 
 //Write the Footer HTML, which has information about the blog.
 let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='http://wertercatt.com/'>wertercatt.com</a></p><p><center>Established November 12, 2020</center></p>";
