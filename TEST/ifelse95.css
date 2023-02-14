@@ -4,86 +4,158 @@
 }
 
 	* {
+		margin: 2%;
+		padding: 0;
+		border: 0;
 		box-sizing: border-box;
+		font-family: "Balsamiq Sans";
+	}
+	
+	body {
+		background-image: linear-gradient(to left, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+		font-size: 19px;
+		color: white;
+	}
+	
+	header {
+		background-color: rgba(0, 0, 0, 0.8);
+		min-height: 200px;
+		margin: 0;
+		box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	}
 
-      body {
-        margin: 0;
-		text-align: left;
-		background-color: #000000;
-		background-repeat: repeat;
-		background-image: linear-gradient(to bottom right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
-		background-position: left top;
-		background-attachment: fixed;
-		font-family: "Balsamiq Sans", Geneva, sans-serif;
-		font-size: 18px;
-		color: black;
-      }
-
-
-	  hr {
-		  border-width: 3px 0 0 0;
-		  border-style: solid;
-          border-color: #ff30ce; 
-	  }
-
-      a {
-		color: #ff30ce;
+	main {
+		min-height: 1000px;
+		display: flex;
+		flex-flow: row wrap;
 	}
-
-
-      a:hover, a:focus {
-	background-color: #ffbedb;
+	
+	aside:nth-child(1) {
+		flex: 0 0 300px;
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 2%;
+		box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+		height: 1000px;
 	}
-
-      a:visited {
-	color: #0069cc;
+	
+	aside:nth-child(3) {
+		flex: 0 0 300px;
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 2%;
+		box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+		height: 1000px;
 	}
-
-    
-
-	blockquote {
-		border-left: 3px solid #ff30ce;
-		padding: 10px;
+	
+	article {
+		flex: 1 0 800px;
+		background-color: rgba(0, 0, 0, 0.8);
+		text-align: center;
+		padding: 2%;
+		height: 1000px;
+		overflow: auto;
+		box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+		font-size: 250%;
+	}
+	
+	hr {
+		border: solid 1px white;
+	}
+	
+	a {
+		margin: 0;
+		color: rgba(255, 185, 252, 1);
+	}
+	
+	a:hover {
+		color: rgba(79, 193, 255, 1);
+	}
+	
+	a:visited {
+		color: rgba(189, 70, 187, 1);
+	}
+	
+	footer {
+		min-height: 75px;
+		padding: 1%;
+		text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 	}
 
 /*divs and such*/
-
-	.centercon {
-		width: 100%;
-		height: 500px;
-		margin: auto;
-	}
-
-	.content {
-		width: 50%;
-		display: inline-block;
-		padding: 10px;
-	}
-
-	.left,.right {
-		width: 25%;
-		display: inline-block;
-		padding: 10px;
-	}
-
-	.updates {
-		padding: 15px;
-		background: white;
-		width: 75%;
-		height: 410px;
-		overflow:auto;
-		display: inline-block;
-		border: 1px solid black;
-		border-radius: 15px;
-		line-height: 90%;
-	}
-	 
 	.caption {
 		font-style: italic;
 		font-size: 14px;
 	}
-		
+	
+	.topnav {
+		background-color: rgba(0, 0, 0, 1);
+		overflow: hidden;
+		margin: 0;
+		box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	}
+	
+	.topnav a {
+	  float: left;
+	  color: #ffffff;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+	
+	.topnav a:hover {
+		background-color: rgba(255, 185, 252, 1);
+		color: black;
+	}
+	
+	.topnav a.active {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+	
+	.rainbowheader {
+		text-align: center;
+		font-size: 100px;
+		background: linear-gradient(to left, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578); 
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: white;
+		padding-top: 3%;
+		padding-bottom: 1%;
+	}
+	
+	.rainbowsubheader {
+		text-align: center;
+		font-size: 75px;
+		background: linear-gradient(to left, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578); 
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: white;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	
+	/*.footerlink {
+		text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+	}*/
+	
+	.headerlink {
+		text-decoration: none;
+	}
+	
 /*status*/
 
 #statuscafe {
@@ -101,49 +173,3 @@
 }
 
 /*misc*/
-
-#footer {
-	font-size: 14px;
-	padding: 5px;
-    /*margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 30px;
-	background: white;
-	flex: 2 25%;
-	border: solid black 1px;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
-}
-
-/*collapsable box on like. one page*/
-
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #ffdbed;
-  color: #000000;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  border-radius: 15px;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
-  font-family: "Balsamiq Sans", Geneva, sans-serif;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #ff9ecf;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  border-radius: 15px;
-  background-color: #ebffb0;
-} 
-
-/*media query*/
