@@ -31,6 +31,7 @@ let authorLink = "mailto:ifelse95@gmail.com"; // Enter your website, social medi
   use a date it must still follow that format.*/
 
 let postsArray = [
+[ "posts/2023-04-20-lightning-strike.html" ] ,
 [ "posts/2023-02-10-squishy-joy.html" ] ,
 [ "posts/2023-02-04-built-a-computer.html" ] ,
 [ "posts/2023-01-24-self-care.html" ] ,
