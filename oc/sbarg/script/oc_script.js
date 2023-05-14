@@ -1,7 +1,7 @@
 //header
 let headHTML = '<a href="' + 'index.html">Index</a> ' + 
 '<a href="' + 'categories.html">Categories</a> ' +
-'<a href="' + 'home.html">Homepage</a> ' ;
+'<a href="' + 'index.html">Homepage</a> ' ;
 
 
 
