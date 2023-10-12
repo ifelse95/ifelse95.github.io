@@ -1,7 +1,7 @@
 /*Welcome to the script file! Your 1st time here, you should update
-  the basic info section to include your name and website/social 
+  the BASIC INFO section to include your name and website/social 
   media link (if desired). Most of the time, you will just come
-  here to update the posts array. However, you can also edit or
+  here to update the POSTS ARRAY. However, you can also edit or
   add your own scripts to do whatever you like!*/
 
 //TABLE OF CONTENTS
@@ -15,7 +15,7 @@
 //==[ 1. BASIC INFO ]==
 
 let blogName = "ifelse95's journal";
-let authorName = "Cyrus";
+let authorName = "cyrus";
 let authorLink = "mailto:ifelse95@gmail.com"; // Enter your website, social media, etc. Some way for people to tell you they like your blog! (Leaving it empty is okay too)
 
 //-----------------------------
@@ -31,6 +31,8 @@ let authorLink = "mailto:ifelse95@gmail.com"; // Enter your website, social medi
   use a date it must still follow that format.*/
 
 let postsArray = [
+[ "posts/2023-10-05-life-preserver.html" ] ,
+[ "posts/2023-08-31-summer-retrospection.html" ] ,
 [ "posts/2023-07-10-a-stay-in-the-psych-ward.html" ] ,
 [ "posts/2023-06-14-pride.html" ] ,
 [ "posts/2023-05-27-unity.html" ] ,
@@ -76,9 +78,17 @@ let postsArray = [
 [ "posts/2020-11-20-roasted-garlic-potatoes.html" ] ,
 [ "posts/2020-11-19-a-little-introduction.html" ] ];
 
-//-----------------------------
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-//==[ 3. CREATING HTML SECTIONS TO BE INSERTED ]==
+/*CAUTION!! BEGINNING OF MORE ADVANCED SECTION!
+  For default functionality, you DO NOT have to touch anything beyond this point.
+  Things get more complicated here, so if you are unfamiliar with Javascript,
+  your site may break. That's okay though, you can always paste back in the code
+  from the Zonelets starter files :) */
+
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//==[ 3. GENERATING THE HTML SECTIONS TO BE INSERTED ]==
 
 let url = window.location.pathname;
 
@@ -90,22 +100,23 @@ let relativePath = ".";
 if ( url.includes("posts/") ) {
   relativePath = "..";
 }
-if ( url.includes("project/") ) {
-  relativePath = "..";
-}
 
-//Write the Header HTML, a series of list items containing links.
-let headerHTML = '<ul> <li><a href="' + '/zonelets/index.html">Home</a></li>' + 
-'<li><a href="' + '/zonelets/archive.html">Archive</a></li>' +
-'<li><a href="' + '/zonelets/about.html">About</a></li>' +
-'<li><a href="' + '../index.html">Main</a></li>';
+//Generate the Header HTML, a series of list items containing links.
+let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
+'<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
+'<li><a href="' + relativePath + '/about.html">About</a></li> </ul>';
 
-//Write the Footer HTML, which has information about the blog.
-let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='http://wertercatt.com/'>wertercatt.com</a></p><p><center>Established November 12, 2020</center></p>";
+//Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
+//Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
+let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='https://neocities.org/'>Neocities!</a></p>";
 
 //To do the following stuff, we want to know where we are in the posts array (if we're currently on a post page).
 let currentIndex = -1;
 let currentFilename = url.substring(url.lastIndexOf('posts/'));
+//Depending on the web server settings (Or something?), the browser url may or may not have ".html" at the end. If not, we must add it back in to match the posts array. (12-19-2022 fix)
+if ( ! currentFilename.endsWith(".html") ) {
+    currentFilename += ".html";
+}
 let i;
 for (i = 0; i < postsArray.length; i++) {
   if ( postsArray[i][0] === currentFilename ) {
@@ -183,7 +194,7 @@ postListHTML += "</ul>";
 
 //Generate the Recent Post List HTML, which can be shown on the home page (or wherever you want!)
 let recentPostsCutoff = 3; //Hey YOU! Change this number to set how many recent posts to show before cutting it off with a "more posts" link.
-let recentPostListHTML = "<h2>Recent Logs:</h2><ul>";
+let recentPostListHTML = "<h2>Recent Posts:</h2><ul>";
 let numberOfRecentPosts = Math.min( recentPostsCutoff, postsArray.length );
 for ( let i = 0; i < numberOfRecentPosts; i++ ) {
   recentPostListHTML += formatPostLink(i);
@@ -258,12 +269,3 @@ if (document.getElementById("footer")) {
 if (document.title === "Blog Post") {
   document.title = currentPostTitle;
 }
-
-//disquis
-
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://ifelse95s-house.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();

@@ -1,36 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 <channel>
-<title>ifelse95's house | journal</title>
-<link>https://www.ifelse95.xyz/zonelets/index.html</link>
+<title>ifelse95's journal</title>
+<link>https://ifelse95.github.io/</link>
 <description>ifelse95's blog.</description>
 <item>
-<title>a stay in the psych ward</title>
-<link>https://www.ifelse95.xyz/zonelets/posts/2023-07-10-a-stay-in-the-psych-ward.html</link>
-<guid>https://www.ifelse95.xyz/zonelets/posts/2023-07-10-a-stay-in-the-psych-ward.html</guid>
-<pubDate>Mon, 10 Jul 2023 22:55:00 CST</pubDate>
-<description>do heed the content warnings.</description>
+<title>life preserver</title>
+<link>https://ifelse95.github.io/zonelets/posts/2023-10-05-life-preserver.html</link>
+<guid>https://ifelse95.github.io/zonelets/posts/2023-10-05-life-preserver.html</guid>
+<pubDate>Thur, 05 Oct 2023 09:00:00 CST</pubDate>
+<description>why i collect dolls</description>
 </item>
 <item>
-<title>pride</title>
-<link>https://www.ifelse95.xyz/zonelets/posts/2023-06-14-pride.html</link>
-<guid>https://www.ifelse95.xyz/zonelets/posts/2023-06-14-pride.html</guid>
-<pubDate>Wed, 14 Jun 2023 19:55:00 CST</pubDate>
-<description>happy pride month! here's some rambling about being queer.</description>
-</item>
-<item>
-<title>an update to the latest update</title>
-<link>https://www.ifelse95.xyz/zonelets/posts/2023-05-13-an-update-to-the-latest-update.html</link>
-<guid>https://www.ifelse95.xyz/zonelets/posts/2023-05-13-an-update-to-the-latest-update.html</guid>
-<pubDate>Sat, 13 May 2023 06:45:00 CST</pubDate>
-<description>an update to an update</description>
-</item>
-<item>
-<title>i'm cringe but i'm (almost) free: a life update</title>
-<link>https://www.ifelse95.xyz/zonelets/posts/2023-05-09-im-cringe-but-free.html</link>
-<guid>https://www.ifelse95.xyz/zonelets/posts/2023-05-09-im-cringe-but-free.html</guid>
-<pubDate>Tues, 09 May 2023 12:25:00 CST</pubDate>
-<description>a pretty big life update. heed the content warnings. also, it gets pretty long!</description>
+<title>summer retrospection</title>
+<link>https://ifelse95.github.io/zonelets/posts/2023-08-31-summer-retrospection.html</link>
+<guid>https://ifelse95.github.io/zonelets/posts/2023-08-31-summer-retrospection.html</guid>
+<pubDate>Thur, 31 Aug 2023 23:55:00 CST</pubDate>
+<description>a look back at my summer. do heed the content warnings.</description>
 </item>
 </channel>
 </rss>

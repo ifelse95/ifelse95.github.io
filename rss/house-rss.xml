@@ -2,54 +2,14 @@
 <rss version="2.0">
 <channel>
 <title>ifelse95's house</title>
-<link>https://www.ifelse95.xyz/</link>
+<link>https://ifelse95.github.io/</link>
 <description>ifelse95's website.</description>
 <item>
-<title>Site Update 5.23.23</title>
-<link>https://www.ifelse95.xyz/about/index.html</link>
+<title>Site Update 10.12.23</title>
+<link>https://ifelse95.github.io/</link>
 <guid>upd8-0523230823</guid>
-<pubDate>Tues, 23 May 2023 20:30:00 CST</pubDate>
-<description>about section created!</description>
-</item>
-<item>
-<title>Site Update 5.21.23</title>
-<link>https://www.ifelse95.xyz/</link>
-<guid>upd8-0521230343</guid>
-<pubDate>Sun, 21 May 2023 15:50:00 CST</pubDate>
-<description>2022 artwork, koikatsu, and ts4 render galleries have been updated! in addition, there is also a new 2023 artwork gallery.</description>
-</item>
-<title>Site Update 5.11.23</title>
-<link>https://www.ifelse95.xyz/</link>
-<guid>upd8-0511230326</guid>
-<pubDate>Thurs, 11 May 2023 14:30:00 CST</pubDate>
-<description>front pages have a brand new look! i apologize for putting this off for so long... the first attempt was a disaster and i just wasn't motivated to try again until recently. the about section is soon to come!</description>
-</item>
-<item>
-<title>Site Update 9.10.22</title>
-<link>https://www.ifelse95.xyz/</link>
-<guid>upd8-0910221003</guid>
-<pubDate>Sat, 10 Sept 2022 22:18:00 CST</pubDate>
-<description>this site is now a part of the "Yesterweb" webring! you can find the widget below this updates box.</description>
-</item>
-<title>Site Update 9.2.22</title>
-<link>https://www.ifelse95.xyz/</link>
-<guid>upd8-0902220717</guid>
-<pubDate>Fri, 02 Sept 2022 20:18:00 CST</pubDate>
-<description>slight update to my about page and added a couple self portraits into the 2022 art gallery</description>
-</item>
-<item>
-<title>Site Update 7.27.22</title>
-<link>https://www.ifelse95.xyz/</link>
-<guid>upd8-0727220921</guid>
-<pubDate>Wed, 27 Jul 2022 21:21:00 CST</pubDate>
-<description>this site is now a part of the "Lesbians on the Internet" webring! you can find the widget below this updates box.</description>
-</item>
-<item>
-<title>Site Update 6.24.22</title>
-<link>https://www.ifelse95.xyz/</link>
-<guid>upd8-0624220000</guid>
-<pubDate>Fri, 24 Jun 2022 00:00:00 CST</pubDate>
-<description>A site map has been created.</description>
+<pubDate>Thur, 12 Oct 2023 17:15:00 CST</pubDate>
+<description>moved site to github pages.</description>
 </item>
 </channel>
 </rss>
