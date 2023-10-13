@@ -180,3 +180,19 @@ hr {
   font-size: 0.8em;
   padding: 0 5% 10px 5%;
 }
+
+/*status*/
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+	background-repeat: repeat;
+	background-image: linear-gradient(to right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+    border: 1px solid black;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
