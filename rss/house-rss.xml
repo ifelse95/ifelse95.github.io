@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>ifelse95's house</title>
+<link>https://ifelse95.github.io/</link>
+<description>ifelse95's website.</description>
+<item>
+<title>Site Update 10.12.23</title>
+<link>https://ifelse95.github.io/</link>
+<guid>upd8-0523230823</guid>
+<pubDate>Thur, 12 Oct 2023 17:15:00 CST</pubDate>
+<description>moved site to github pages.</description>
+</item>
+</channel>
+</rss>

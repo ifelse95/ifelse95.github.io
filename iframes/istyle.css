@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Balsamiq Sans";
+    src: url(../style/BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
+}
+
+ body {
+    font-family: "Balsamiq Sans", Geneva, sans-serif;
+	font-size: 19px;
+	color: black;
+}
+
+a {
+		margin: 0;
+		color: #cf659d;
+	}
+	
+	a:hover {
+		color: rgba(79, 193, 255, 1);
+	}
+	
+	a:visited {
+		color: rgba(189, 70, 187, 1);
+	}
+
+hr {
+		border: solid 1px pink;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+		font-size: 250%;
+	}
+
+.caption {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.boxfont {
+	color: black
+}
+
+.linksidebar li {
+		list-style-type: none;
+		font-size: 25px;
+	}
+	
+	.rainbowheader {
+		text-align: center;
+		font-size: 100px;
+		background: linear-gradient(to left, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578); 
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: #5e2543;
+		padding-top: 3%;
+		padding-bottom: 1%;
+	}
+	
+	.rainbowsubheader {
+		text-align: center;
+		font-size: 75px;
+		background: linear-gradient(to left, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578); 
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: #5e2543;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	
+	.rainbowtext {
+		text-align: center;
+		background: linear-gradient(to left, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578); 
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: #5e2543;
+	}
+
+/*status*/
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+	background-repeat: repeat;
+	background-image: linear-gradient(to right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+    border: 1px solid black;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
