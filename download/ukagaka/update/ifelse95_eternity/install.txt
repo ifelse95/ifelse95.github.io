@@ -1,7 +1,0 @@
-charset,UTF-8
-type,ghost
-
-name,Eternity
-directory,ifelse95_eternity
-
-balloon.directory,ifelse95_eternityballoon
