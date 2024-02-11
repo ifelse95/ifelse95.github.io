@@ -1,0 +1,136 @@
+
+ html {
+        font-family: Times New Roman, Geneva, sans-serif;
+		font-size: 25px;
+      }
+
+      body {
+        margin: 0;
+		text-align: center;
+		background-color: #000000;
+		background-repeat: repeat;
+		background-image: url(../img/bg_gold_silk.jpg);
+		background-position: left top;
+		background-attachment: scroll;
+      }
+
+	  p {
+		 color: #cf991b;
+		 text-align: left
+	  }
+
+
+      h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+        color: #cf991b;
+        line-height: 100px;
+        margin: 0;
+      }
+
+	  hr {
+		  border-width: 1px 0 0 0;
+		  border-style: solid;
+          border-color: black; 
+	  }
+
+      a {
+		color: #ffffff;
+	}
+
+
+      a:hover, a:focus {
+	background-color: #cf991b;;
+	}
+
+      a:visited {
+	color: #825f00;
+	}
+
+     .caption {
+		font-style: italic;
+		font-size: 18px;
+		text-align: center;
+	}
+
+     .boxfont {
+		color: black
+	}
+
+
+/*flexbox*/
+
+      article {
+        padding: 50px;
+        margin: 50px;
+        background: rgba(0, 0, 0, 0.9);
+		flex: 2 25%;
+		border: solid black 1px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		align-self: flex-start;
+		width: 200px;
+      }
+	  
+      iframe {
+        padding: 10px;
+        margin: 10px;
+        background: white;
+		flex: 1 15%;
+		border: solid black 1px;
+		border-radius: 15px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		align-self: flex-start;      
+    }
+
+      /* Add your flexbox CSS below here */
+
+		section {
+		display: flex;
+		flex-wrap: wrap;
+		height: 5%;
+		}
+		
+		
+/*status*/
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+	background-repeat: repeat;
+	background-image: linear-gradient(to right, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
+    border: 1px solid black;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
+/*misc*/
+
+#footer {
+	font-size: 14px;
+	padding: 0 5% 10px 5%;
+}
+
+header {
+	
+	padding: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+    background: rgba(0, 0, 0, 0.9);
+	border: solid black 1px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.updates {
+			padding: 15px;
+			background: black;
+			color: #cf991b;
+			width: 25%;
+			height: 500px;
+			overflow:auto;
+			display: inline-block;
+			border: 1px solid black;
+			line-height: 90%;
+		}

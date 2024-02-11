@@ -1,0 +1,26 @@
+charset, UTF-8
+charset.dic, UTF-8
+charset.output, UTF-8
+charset.file, UTF-8
+charset.save, UTF-8
+charset.extension, UTF-8
+
+include, system_config.txt
+dic, e_aitalk.dic
+dic, e_anchor.dic
+dic, e_bootend.dic
+dic, e_commu.dic
+dic, e_etc.dic
+dic, e_gifts.dic
+dic, e_menu.dic
+dic, e_mh.dic
+dic, e_mouse.dic
+dic, e_nameteach.dic
+dic, e_string.dic
+dic, e_word.dic
+dic, zzz_todo.dic
+
+
+//log, ayame.log
+msglang,english
+messagetxt,system/messagetxt/english.txt

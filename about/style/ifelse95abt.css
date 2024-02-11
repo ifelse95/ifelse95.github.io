@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Balsamiq Sans";
+    src: url(BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
+}
+
+	* {
+		margin: 1%;
+		padding: 0;
+		border: 0;
+		box-sizing: border-box;
+		font-family: "Balsamiq Sans";
+	}
+	
+	body {
+		background-image: url(../img/bg_medbluesatinbg.jpg);
+		background-attachment: fixed;
+		font-size: 19px;
+		color: #002247;
+		text-align: center;
+	}
+	
+	header {
+		margin: 0;
+		color: white;
+		text-shadow: 3px 3px #002e61;
+	}
+
+	main {
+		min-height: 1000px;
+		display: flex;
+		flex-flow: row wrap;
+	}
+	
+	h1 {
+		text-align: center;
+		font-size: 250%;
+	}
+	
+	hr {
+		border: dashed 2px #002247;
+		margin: 2%;
+	}
+	
+	a {
+		margin: 0;
+		color: #ffb545;
+	}
+	
+	a:hover {
+		color: #ffff96;
+	}
+	
+	a:visited {
+		color: #bf8c3f;
+	}
+	
+	footer {
+		min-height: 75px;
+		padding: 1%;
+		text-shadow: 1px 1px #002e61;
+	}
+
+/*divs and such*/
+	.caption {
+		font-style: italic;
+		font-size: 14px;
+	}
+	
+	.content {
+		margin: auto;
+		padding: 2%;
+		width: 50%;
+		height: 80%;
+		border: 2px solid #002247;
+		background-color: white;
+		box-shadow: 5px 5px #002e61;
+	}
+	
+	.linkbox {
+		margin: auto;
+		padding: 2%;
+		width: 50%;
+		border: 2px solid #002247;
+		background-color: #2c5885;
+		box-shadow: 5px 5px #002e61;
+	}
+	
+	.centerlist li {
+		list-style-type: none;
+		text-align: center;
+	}
+	
+	.iframedeco {
+		border: 2px solid #002247;
+		box-shadow: 5px 5px #002e61;
+	}
+	
+	/*.topnav {
+		background-color: rgba(0, 0, 0, 1);
+		overflow: hidden;
+		margin: 0;
+		box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	}
+	
+	.topnav a {
+	  float: left;
+	  color: #ffffff;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+	
+	.topnav a:hover {
+		background-color: rgba(255, 185, 252, 1);
+		color: black;
+	}
+	
+	.topnav a.active {
+	  background-color: #04AA6D;
+	  color: white;
+	} */
+	
+	
+	.imgcenter {
+		margin: auto;
+	}
+	
+	.headerlink {
+		text-decoration: none;
+	}
+	
+/*misc*/

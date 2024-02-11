@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Balsamiq Sans";
+    src: url(BalsamiqSans-Regular.ttf); /* Source: https://fonts.google.com/specimen/Balsamiq%20Sans */
+}
+
+ html {
+        font-family: "Balsamiq Sans", Geneva, sans-serif;
+		font-size: 18px;
+      }
+
+      body {
+        margin: 0;
+		text-align: center;
+		background-color: #ffffff;
+		background-repeat: repeat;
+		background-image: url(../../img/bg_rainbowmusic.gif);
+		background-position: left top;
+		background-attachment: fixed;
+      }
+
+	  p {
+		 color: black;
+		  text-align: center;
+	  }
+
+
+      h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+        color: black;
+        line-height: 100px;
+        margin: 0;
+        text-shadow: 1px 1px 5px #ffffff;
+      }
+
+	  hr {
+		  border-width: 1px 0 0 0;
+		  border-style: solid;
+          border-color: grey; 
+	  }
+
+      a {
+		color: #ff30ce;
+	}
+
+
+      a:hover, a:focus {
+	background-color: #ffbedb;
+	}
+
+      a:visited {
+	color: #0069cc;
+	}
+
+     .caption {
+		font-style: italic;
+		font-size: 14px;
+	}
+
+	#quickinfo {
+		width: 35%;
+		border: solid black 1px;
+		float: right;
+		margin: 5%;
+		font-size: 14px;
+	}
+
+.center {
+  text-align: center;
+}
+
+/*flexbox*/
+
+      article {
+        padding: 10px;
+        margin-right: 12%;
+		margin-left: 12%;
+		margin-top: 1%;
+		margin-bottom: 5%;
+        background: rgba(255, 255, 255, 0.8);
+		flex: 2 25%;
+		border: solid black 1px;
+		align-self: flex-start;
+      }
+	  
+      iframe {
+        padding: 10px;
+        margin: 10px;
+        background: white;
+		flex: 1 15%;
+		border: solid black 1px;
+		border-radius: 15px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		align-self: flex-start;      
+    }
+
+      /* Add your flexbox CSS below here */
+
+		section {
+		display: flex;
+		flex-wrap: wrap;
+		height: 5%;
+		}
+		
+
+/*misc*/
+
+#footer {
+	font-size: 14px;
+	padding: 5px;
+    /*margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 30px;
+	background: white;
+	flex: 2 25%;
+	border: solid black 1px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
+}
+
+header {
+	margin-top: 5%;
+	margin-right: 12%;
+	margin-left: 12%;
+	text-align: left;
+}
+
+/*collapsable box*/
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #ffdbed;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-family: "Balsamiq Sans", Geneva, sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ff9ecf;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #ebffb0;
+} 

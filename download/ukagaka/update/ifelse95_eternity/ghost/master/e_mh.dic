@@ -1,0 +1,59 @@
+//mental health menu setup originally copied from ifelse95_positive. might as well reuse it
+
+
+//----------------------------------HELP-------------------------------
+Select.mhres
+{
+	 "\0\s[0]\b2What's wrong?\n\n[half]/
+	 \![*]\q[I'm feeling suicidal.,shl]\n/
+	 \![*]\q[I'm feeling anxious.,ahlp]\n/
+	 \![*]\q[I'm feeling angry.,angerhlp]\n/
+	 \![*]\q[I want to hurt myself.,sharhlp]\n/
+	 \![*]\q[I relapsed.,relapsehlp]\n/
+	 \![*]\q[I need to ground myself.,grouhlp]\n/
+	 \![*]\q[I just need a reminder.,affirm]\n/
+	 \![*]\q[Nevermind.,BACKTOMENU]\n"
+ }
+
+ 
+ Select.shl //suicide hotlines
+ {
+	"\0\s[4]%(playCon)I'm sorry to hear that, %(username).\w8\w8\0\s[0]\n\n[half]Please tell someone you trust how you feel,\w5 and seek help as soon as you can.\w8 If you are in the US,\w5 you can also call the National Suicide Prevention Lifeline at\n\n[half]1-800-273-8255\w8\w8\w8\n\n[half]If you are LGBTQA+,\w5 you might of also heard of \_a[https://www.thetrevorproject.org/#sm.0001ne6haq50cenir9x2i0qqeo07m]the Trevor Project.\_a\w8\w8\w8\n\n[half]You can also use the \_a[https://www.crisistextline.org/]Crisis Text Line\_a.\w8\w8\w8\w8\n\n[half]Stay safe, %(username).\w8 You aren't alone,\w5 and many love you.\x\e"
+ }
+ 
+ Select.ahlp //anxiety help
+ {
+	 "\0\s[0]%(playCon)Breathe slowly, %(username).\w8 Keep breathing slowly for 3 minutes or so.\w8 Time yourself, if you have to.\w8\w8\w8\w8\n\n[half]Once you are done with that,\w5 find something to do to occupy your mind,\w5 rather than your hands.\w8\w8 You can do this by doing things like solving a puzzle or playing a game.\w8\w8 You can find more ideas at this \_a[https://www.psychologytoday.com/us/blog/in-practice/201503/50-strategies-beat-anxiety]article.\_a\w8\w8\w8\w8\n\n[half]If you feel unsafe,\w5 please seek help from someone.\w8\w8\w8\w8\n\n[half]Everything will be okay, %(username).\w8 I'm sure of it.\x\e"
+ }
+
+ Select.angerhlp //anger managment. add some resources in the future
+ {
+	 "\0\s[0]%(playCon)Take a step away from the situation.\w8\w8\w8\w8\n\n[half]Take deep and slow breaths,\w5 and find a way to release your anger safely.\w8\w8\w8\n\n[half]You could try exercising,\w5 taking a walk,\w5 or punching a pillow.\w8\w8\w8\w8\n\n[half]If you are feeling unsafe,\w5 please seek help.\w8\w8\w8\w8\n\n[half]When you return to the situation,\w5 try explaining calmly what made you angry and why it did, \w5if needed.\x\e"
+ }
+ 
+ Select.sharhlp //self harm help. add some resources in the future
+ {
+	 "\0\s[0]%(playCon)Please seek help, %(username).\w8\w8 Whatever you may be going through right now,\w5 harming yourself in any way is not the solution.\w8\w8\w8\w8\n\n[half]Try scribbling on a piece of paper,\w5 drawing on the place you want to inflict harm with a marker,\w5 or finding a distraction.\w8\w8\w8\w8\n\n[half]Please stay safe, %(username).\w8 You are loved,\w5 and your loved ones don't want you to be in pain.\x\e"
+ }
+ 
+ Select.relapsehlp
+ {
+	 "\0\s[0]%(playCon)this is for relapse help.\e"
+ }
+ 
+ Select.grouhlp
+ {
+	 "\0\s[0]%(playCon)this is for a list of grounding techniques\e"
+ }
+ 
+ Select.affirm
+ {
+	 "\0\s[0]%(playCon)perhaps a list will appear here.\e"
+ }
+ 
+ 
+ //--------------------------------------TEST---------------------------------
+ Select.testsuccess
+ {
+	 "\0\s[0]yeehaw\e"
+ }
