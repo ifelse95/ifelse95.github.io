@@ -13,33 +13,44 @@
   </head>
   <body>
 	
-	<header>ifelse95's house</header>
+	<header><div align="center"><img src="img/header.png" height="35%" width="35%"></div></header>
 
 		<div class="content">
 		<ul class="topnav">
 		<li><a class="active" href="index.html">Home</a></li>
 		<li><a href="about.html">About</a></li>
-		<li><a href="sites.html">Sites</a></li>
+		<li><a href="sites.html">Socials</a></li>
 		<li><a href="zonelets/index.html">Blog</a></li>
 		<li><a href="https://www.twitch.tv/ifelse95tv">TV</a></li>
 		</ul>
 		
 			<h1 class="rainbowsubheader">Welcome to Our Website!</h1>
 			<div align="center"><img src="img/houses/houserb.gif">
-			<p>Welcome to the official web page of the ifelse95 system. Here you will find our various works, stuff about ourselves, our hobbies, and more. We hope you enjoy your stay.</p></div>
+			<p>Welcome to the official web page of the ifelse95 system. Here is the main hub for our stuff, including streaming, blog posts, art, and more!</p></div>
 			<br>
 			<hr>
-			<h1 class="rainbowsubheader">-- Site Updates --</h1>
+			<h1 class="rainbowsubheader">Stream</h1><br>
+			
+			<!-- Add a placeholder for the Twitch embed -->
+			<div id="ifelse95tv"></div>
+
+			<!-- Load the Twitch embed script -->
+			<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+			<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+			<script type="text/javascript">
+			  new Twitch.Player("twitch-embed", {
+				video: "2162971672"
+			  });
+			</script>
+			
+			<hr>
+			<h1 class="rainbowsubheader">Site Updates</h1>
 			<div align="center"><img src="img/misc/under construction.gif"></div>
 			<p><b>[5.19.24]</b> Filling out pages, changed "under construction" image, moving things around, added more links</p>
 			<p><b>[5.18.24]</b> Home server died. Moved to Github.</p>
 			<p><b>[2.11.24]</b> Began total site rework.</p>
 			<h2 class="rainbowtext">-- End Updates --</h2>
-		</div>
-		
-		<div class="cbox">
-		<h2 class="rainbowtext">Guestbook</h2>
-		<iframe src="https://www3.cbox.ws/box/?boxid=3535426&boxtag=tVqyAU" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
 		</div>
 		
 	<footer>ifelse95's house is written by the ifelse95 system. Hosted on Github.</footer>
