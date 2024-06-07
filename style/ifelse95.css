@@ -13,7 +13,7 @@
 	
 	body {
 		background-image: linear-gradient(to left, #FF7675, #FFFF75, #75FF77, #75FFFE, #7775FF, #FF75EC, #FF7578);
-		font-size: 19px;
+		font-size: 23px;
 		color: white;
 	}
 	
@@ -78,19 +78,7 @@
 		margin-right: auto;
 		margin-top: 2%;
 		text-align: center;
-	}
-	
-	.cbox {
-		background-color: rgba(0, 0, 0, 1);
-		background-image: url("../img/bg/bg_stars.gif");
-		min-height: 450px;
-		width: 75%;
-		border: 1px solid black;
-		padding: 1%;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 2%;
-		text-align: center;
+		font-size: 19px;
 	}
 	
 /*divs and such*/
@@ -183,6 +171,50 @@ ul.topnav li a.active {background-color: #ff96e0;}
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
+  .content {
+		background-color: rgba(0, 0, 0, 1);
+		width: 100%;
+		border: 1px solid black;
+		padding: 3%;
+		margin: auto;
+	}
+	
+	header {
+		background-color: rgba(0, 0, 0, 1);
+		min-height: 150px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2%;
+		border: solid 1px black;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 2%;
+		text-align: center;
+		font-size: 400%;
+	}
+	footer {
+		background-color: rgba(0, 0, 0, 1);
+		min-height: 50px;
+		width: 100%;
+		border: 1px solid black;
+		padding: 1%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+		text-align: center;
+		font-size: 19px;
+	}
+	
+	.linkbox {
+		margin: auto;
+		padding: 2%;
+		width: 95%;
+		font-size: 125%;
+		color: black;
+		border: 2px solid #96e1ff;
+		background-color: #FFFFFF;
+	}
 }
 	
 /*status*/
